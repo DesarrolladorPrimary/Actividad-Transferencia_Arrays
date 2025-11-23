@@ -2,15 +2,18 @@
 marca, modelo, año y estado. Muestre cada propiedad en consola de manera
 individual. */
 
+// Declarar un objeto con propiedades del celular
 const celular = {
-  marca: "Samsung",
-  modelo: "Galaxy S23",
-  año: 2023,
-  estado: "Nuevo",
+  marca: "Samsung", // Propiedad: marca del celular
+  modelo: "Galaxy S23", // Propiedad: modelo específico
+  año: 2023, // Propiedad: año de fabricación (número)
+  estado: "Nuevo", // Propiedad: condición del celular
 };
 
-// Mostrar cada propiedad de manera individual
-console.log("Marca:", celular.marca);
-console.log("Modelo:", celular.modelo);
-console.log("Año:", celular.año);
-console.log("Estado:", celular.estado);
+// Acceder y mostrar cada propiedad del objeto de manera individual
+// Usando la notación de punto (objeto.propiedad)
+
+console.log("Marca:", celular.marca); // Accede a la propiedad 'marca'
+console.log("Modelo:", celular.modelo); // Accede a la propiedad 'modelo'
+console.log("Año:", celular.año); // Accede a la propiedad 'año'
+console.log("Estado:", celular.estado); // Accede a la propiedad 'estado'
